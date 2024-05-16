@@ -1,2 +1,2 @@
-# <p style="text-align: center;"><img src=""></p>
+# <p style="text-align: center;"><img src="https://raw.githubusercontent.com/Bonavigo/archivo/main/assets/img/preview.png"></p>
 Um projeto que possuí como objetivo expor um pouco da história junto do meu pequeno acervo de fotos.
