@@ -15,12 +15,38 @@
 
 }
 
-.corpo-pagina-principal {
+.corpo-pagina-principal main {
 	min-height: 100vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+}
+
+.corpo-pagina-principal-galerias main {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.corpo-pagina-principal-galerias {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	min-height: 100vh;
+	margin: 3em 1em 3em 1em;
+}
+
+.corpo-pagina-principal-galerias footer {
+	margin-top: 3em;
+}
+
+.corpo-pagina-principal-galerias footer p {
+	text-align: center;
+	font-size: 1.25em;
+	margin: 0;
 }
 
 .fonte-maquina-de-escrever {
@@ -31,8 +57,25 @@
 	font-family: Roboto;
 }
 
+/* Estilo das imagens de cada seção do site */
+
 .maquina-de-escrever {
 	width: 150px;
+	cursor: pointer;
+}
+
+.campanile {
+	width: 170px;
+	cursor: pointer;
+}
+
+.locomotiva-a-vapor {
+	width: 370px;
+	cursor: pointer;
+}
+
+.logo-da-spr {
+	width: 200px;
 	cursor: pointer;
 }
 
@@ -57,7 +100,28 @@
 	text-align: justify;
 }
 
-.campanile {
-	width: 170px;
-	cursor: pointer;
+@media (min-width: 400px) {
+	.pequena-descricao-site {
+		max-width: 380px;
+	}
+}
+
+.container-foto-galeria {
+	height: 200px;
+	overflow: hidden;
+}
+
+.container-foto-galeria img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: 50% 50%;
+}
+
+.introducao-a-pagina-galerias {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 1em;
 }
