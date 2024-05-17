@@ -31,31 +31,33 @@
 	font-family: Roboto;
 }
 
+.maquina-de-escrever {
+	width: 150px;
+	cursor: pointer;
+}
+
 .titulo-site {
 	font-family: OldNewspaperTypes, monospace;
 	font-size: 4em;
 	margin: 0 0 5px 0;
 	text-align: center;
+	color: #000;
 }
 
 .subtitulo-site {
 	font-family: Roboto, sans-serif;
-	font-size: 1.5em;
 	text-align: center;
 	margin-bottom: 0.5em;
 }
 
 .pequena-descricao-site {
 	font-family: Roboto, sans-serif;
-	font-size: 1em;
 	word-wrap: break-word;
 	max-width: 300px;
 	text-align: justify;
-	text-justify: inter-word;
 }
 
-@media (min-width: 420px) {
-	.pequena-descricao-site {
-		max-width: 400px;
-	}	
+.campanile {
+	width: 170px;
+	cursor: pointer;
 }
